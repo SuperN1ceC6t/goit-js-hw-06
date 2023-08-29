@@ -3,6 +3,8 @@ const buttonPlus = document.querySelector('button[data-action="increment"]');
 
 const buttonMinus = document.querySelector('button[data-action="decrement"]');
 
+const value = document.getElementById('value')
+
 let counterValue = 0
 
 function plusOne() {
@@ -18,5 +20,3 @@ function minusOne() {
 buttonPlus.addEventListener('click', plusOne)
 
 buttonMinus.addEventListener('click', minusOne)
-
-const value = document.getElementById('value')
